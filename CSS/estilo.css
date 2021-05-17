@@ -68,15 +68,18 @@ body {
 }
 
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
-  border-radius: 100%;
-  margin-top: calc(-48px - 5px);
+  border-radius: 50%;
+  margin-top: calc(-100px - 5px);
   background-color: white;
 }
 
 .card-body-title {
   margin-top: 2rem;
   font-size: 1.8rem;
+  text-transform: capitalize;
 }
 
 .card-body-title span {
